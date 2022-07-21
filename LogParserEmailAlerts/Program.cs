@@ -16,12 +16,12 @@ namespace SendEmailAlerts
             try
             {
 
-                string rootPath = @"C:\Users\pasa03\Desktop\Logs"; //Path to the Logs folder
+                string rootPath = @"C:\Desktop\Logs"; //Path to the Logs folder
                 //var files = Directory.GetFiles(rootPath, "*.log*", SearchOption.AllDirectories); //Fetches the Path to each Log file
                 //Fetches only the latest log files newer than yesterday
                 var files = Directory.GetFiles(rootPath, "*.log*", SearchOption.AllDirectories).Where(x => new FileInfo(x).CreationTime.Date > DateTime.Today.AddDays(-1));
                 List<string> errorList = new List<string>(); //stores the result of the condition loop in a List string
-                                                             //string logPath = @"C:\Users\pasa03\Desktop\Logs\log.txt"; //Path to the log file if you want to write the output into a log
+                //string logPath = @"C:\Desktop\Logs\log.txt"; //Path to the log file if you want to write the output into a log
 
                 foreach (string file in files)
                 {
@@ -37,7 +37,7 @@ namespace SendEmailAlerts
                         if (line != null) //check if the line is not null
                         {
 
-                            if (line.Contains("result=[false]") == true) //check for the TEXT you want to search in the log file
+                            if (line.Contains("ERROR") == true) //check for the TEXT you want to search in the log file
                             {
 
                                 string datetime = line.Split(' ')[0] + " " + line.Split(' ')[1]; //getting the 1st and 2nd words in the line
@@ -72,16 +72,16 @@ namespace SendEmailAlerts
 
                 //Sending email
 
-                string Username = "STRIIM";
-                string Password = "SMSds123";
-                string to = "sai.parvathaneni@sms-group.com";
-                string from = "sai.parvathaneni@sms-group.com";
+                string Username = "username";
+                string Password = "password";
+                string to = "receivers@email.com";
+                string from = "your@email.com";
                 MailMessage message = new MailMessage(from, to);
-                message.To.Add("sai.parvathaneni@sms-group.com");
-                message.Subject = "Checks Issues for BRSDB ETL";
+                message.To.Add("additional.receivers@email.com");
+                message.Subject = "Alerts from Logs";
                 message.Body = emailAlertLogs.ToString();
 
-                SmtpClient client = new SmtpClient("us-smtp.sms-group.com");
+                SmtpClient client = new SmtpClient("smtp.email.com");
                 client.Port = 25;
                 client.EnableSsl = false;
                 client.Credentials = new NetworkCredential(Username, Password);

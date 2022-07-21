@@ -1,0 +1,15 @@
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\bin\Release\net6.0\LogParserEmailAlerts.exe
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\bin\Release\net6.0\LogParserEmailAlerts.deps.json
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\bin\Release\net6.0\LogParserEmailAlerts.runtimeconfig.json
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\bin\Release\net6.0\LogParserEmailAlerts.dll
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\bin\Release\net6.0\LogParserEmailAlerts.pdb
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.csproj.AssemblyReference.cache
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.AssemblyInfoInputs.cache
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.AssemblyInfo.cs
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.csproj.CoreCompileInputs.cache
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.dll
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\refint\LogParserEmailAlerts.dll
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.pdb
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\LogParserEmailAlerts.genruntimeconfig.cache
+C:\Users\pasa03\source\repos\LogParserEmailAlerts\LogParserEmailAlerts\obj\Release\net6.0\ref\LogParserEmailAlerts.dll
